@@ -8,7 +8,7 @@ const ProductItem = (props) => {
   const toggleFav = useContext(ProductsContext).toggleFav;
 
   const toggleFavHandler = () => {
-    // toggleFav(props.id);
+    toggleFav(props.id);
   };
 
   return (
